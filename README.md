@@ -4,7 +4,6 @@ git remote add origin https://github.com/alexmnv03/patterns-study.git
 git branch -M main
 git push -u origin main
 
-
 https://github.com/smetaniny/design-patterns/tree/master/StructuralPatterns
 Паттерны проектирования Банды Четырех (Gang of Four, GoF) — это набор 23 классических паттернов, описанных в книге "Design Patterns: Elements of Reusable Object-Oriented Software", написанной Эриком Гаммой, Ричардом Хелмом, Ральфом Джонсом и Джоном Влипертом. Эти паттерны служат шаблонами для решения распространенных проблем проектирования программного обеспечения и помогают разработчикам создавать гибкие и легко расширяемые системы.
 
