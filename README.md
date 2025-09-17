@@ -1,5 +1,9 @@
 # patterns-study
 
+future/intro
+
+
+
 git remote add origin https://github.com/alexmnv03/patterns-study.git
 git branch -M main
 git push -u origin main
@@ -82,7 +86,7 @@ Compound Component (Паттерн "составных компонентов") 
 Form State Management Pattern (При создании многостраничных форм со сложной логикой на React)
 
 
-
+/*
 
 <?xml version="1.0" encoding="UTF-8" ?> 
 - <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -207,3 +211,4 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	</build>
 
 </project>
+*/
