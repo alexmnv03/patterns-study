@@ -2,7 +2,9 @@
 
 future/intro
 
-future/pattern-begin
+future/pattern-next
+
+future/pattern-three
 
 
 git remote add origin https://github.com/alexmnv03/patterns-study.git
