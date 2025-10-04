@@ -7,7 +7,7 @@ future/pattern-next
 future/pattern-composite-next
 
 future/move-picture
-future/pattern-solid-Dependency Inversion
+future/patterns-list
 
 
 git remote add origin https://github.com/alexmnv03/patterns-study.git
