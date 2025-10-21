@@ -2,6 +2,9 @@ package ru.patterns.factoryMethod.dialog.factory;
 
 import ru.patterns.factoryMethod.dialog.buttons.Button;
 
+/**
+ * Другой вариант это может быть оформлено как абстракный класс
+ */
 public abstract class Dialog {
 
   public void renderWindow() {
