@@ -9,6 +9,7 @@ future/pattern-composite-next
 future/move-picture
 future/patterns-list-FactoryMethod
 future/patterns-FactoryMethod-code-next
+future/patterns-FactoryMethod-code-example
 
 
 git remote add origin https://github.com/alexmnv03/patterns-study.git
