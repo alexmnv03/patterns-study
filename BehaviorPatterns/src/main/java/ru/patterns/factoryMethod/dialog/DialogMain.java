@@ -2,10 +2,10 @@ package ru.patterns.factoryMethod.dialog;
 
 import static ru.utils.RandomNumberGenerator.generateRandomNumber;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Random;
 import ru.patterns.factoryMethod.dialog.factory.DialogAbstractFactory;
 import ru.patterns.factoryMethod.dialog.factory.HtmlDialog;
+import ru.patterns.factoryMethod.dialog.factory.WindowsDialog;
 
 public class DialogMain {
 
@@ -19,7 +19,12 @@ public class DialogMain {
      * или любых других настроек приложения
      * .
      */
-//    dialogAbstractFactory = new WindowsDialog();
+    configure();
+    // А вызываем мы независимо от созданного типа всегда один метод
+    dialogAbstractFactory.renderWindow();
+
+
+
 //    dialog = new HtmlDialog();
 
 
@@ -43,6 +48,14 @@ public class DialogMain {
 //      DialogAbstractFactory dialogAbstractFactory = new HtmlDialog();
 //      dialogAbstractFactoryList.add(dialogAbstractFactory);
 //    }
+//  }
+
+  static void configure() {
+    if (generateRandomNumber(1) == 1) {
+      dialogAbstractFactory = new WindowsDialog();
+    } else {
+      dialogAbstractFactory = new HtmlDialog();
+    }
   }
 }
 

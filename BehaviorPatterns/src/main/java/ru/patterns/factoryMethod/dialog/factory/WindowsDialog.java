@@ -6,7 +6,7 @@ import ru.patterns.factoryMethod.dialog.buttons.WindowsButton;
 public class WindowsDialog extends DialogAbstractFactory {
 
   @Override
-  public Button createButton(int size) {
-    return new WindowsButton(size);
+  public Button createButton() {
+    return new WindowsButton();
   }
 }
