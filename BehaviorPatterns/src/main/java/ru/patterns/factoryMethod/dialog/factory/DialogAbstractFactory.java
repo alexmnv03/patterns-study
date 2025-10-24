@@ -5,13 +5,15 @@ import ru.patterns.factoryMethod.dialog.buttons.Button;
 /**
  * Другой вариант это может быть оформлено как абстракный класс
  */
-public abstract class Dialog {
+public abstract class DialogAbstractFactory {
 
+  //Общий метод создания кнопки. обновления и вывода ее размер
   public void renderWindow() {
     // ... остальной код диалога ...
 
     Button okButton = createButton();
     okButton.render();
+    okButton.outSize();
   }
 
   /**
