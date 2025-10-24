@@ -2,7 +2,6 @@ package ru.patterns.factoryMethod.dialog;
 
 import static ru.utils.RandomNumberGenerator.generateRandomNumber;
 
-import java.util.Random;
 import ru.patterns.factoryMethod.dialog.factory.DialogAbstractFactory;
 import ru.patterns.factoryMethod.dialog.factory.HtmlDialog;
 import ru.patterns.factoryMethod.dialog.factory.WindowsDialog;
