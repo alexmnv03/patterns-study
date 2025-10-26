@@ -18,7 +18,7 @@ public class DialogMain {
     System.out.println("\nВызываем методы для каждого объекта в цикле:");
 
     for (DialogAbstractFactory dialogAbstractFactory : dialogAbstractFactoryList) {
-      dialogAbstractFactory.renderWindow(); // Вызываем метод
+      dialogAbstractFactory.renderWindow(1); // Вызываем метод
       System.out.println("--------------------");
     }
   }

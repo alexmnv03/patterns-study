@@ -11,8 +11,9 @@ future/patterns-list-FactoryMethod
 future/patterns-FactoryMethod-code-next
 future/patterns-FactoryMethod-code-example
 
-добавить свойсва к классу !!!!!
+
 future/patterns-FactoryMethod-code-ref
+future/patterns-FactoryMethod-code-refactor
 
 
 
