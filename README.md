@@ -13,9 +13,12 @@ future/patterns-FactoryMethod-code-example
 
 
 future/patterns-FactoryMethod-code-ref
-future/patterns-FactoryMethod-code-refactor
+future/patterns-FactoryMethod-remove-abstruct
 
-
+Исправить код в методе DialogMain
+Приложение создаёт определённую фабрику в зависимости от конфигурации или
+* окружения.
+Не нужен список обхектов!!!
 
 git remote add origin https://github.com/alexmnv03/patterns-study.git
 git branch -M main
