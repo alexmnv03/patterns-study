@@ -4,21 +4,21 @@ import ru.patterns.factoryMethod.dialog.buttons.Button;
 
 /**
  * Другой вариант это может быть оформлено как абстракный класс
+ * Но этот класс не обязателенЮ только для удобсвта
  */
 public abstract class DialogAbstractFactory {
 
   //Общий метод создания кнопки. обновления и вывода ее размер
-  public void renderWindow(int size) {
+  public void renderWindow() {
     // ... остальной код диалога ...
 
-    Button okButton = createButton(size);
+    Button okButton = createButton();
     okButton.render();
-    okButton.outSize();
   }
 
   /**
    * Подклассы будут переопределять этот метод, чтобы создавать конкретные
    * объекты продуктов, разные для каждой фабрики.
    */
-  public abstract Button createButton(int size);
+  public abstract Button createButton();
 }
