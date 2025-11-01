@@ -13,8 +13,10 @@ future/patterns-FactoryMethod-code-example
 
 
 future/patterns-FactoryMethod-code-ref
-future/patterns-FactoryMethod-remove-builder
-Builder
+future/patterns-FactoryMethod-builder
+
+next
+future/patterns-FactoryMethod-builder-generated
 
 git remote add origin https://github.com/alexmnv03/patterns-study.git
 git branch -M main
