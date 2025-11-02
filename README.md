@@ -13,7 +13,7 @@ future/patterns-FactoryMethod-code-example
 
 
 future/patterns-FactoryMethod-code-ref
-future/patterns-FactoryMethod-add-robot
+future/patterns-FactoryMethod-add-next-robot
 
 
 
