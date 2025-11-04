@@ -15,6 +15,13 @@ future/patterns-FactoryMethod-code-example
 future/patterns-FactoryMethod-code-ref
 future/patterns-FactoryMethod-add-next-robot
 
+future/patterns-FactoryMethod-add-factory-build
+future/patterns-FactoryMethod-add-next-factory-build
+
+
+Не хорошо что House находится внутри классов строителей, давай перепишем код, чтобы убрать эту зависимость 
+public int workOn(House house, ConstructionSite site) {
+
 
 
 git remote add origin https://github.com/alexmnv03/patterns-study.git
