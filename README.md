@@ -13,9 +13,8 @@ future/patterns-FactoryMethod-code-example
 
 
 future/patterns-FactoryMethod-code-ref
-future/patterns-FactoryMethod-add-next-robot
 
-future/patterns-FactoryMethod-add-factory-build
+future/patterns-FactoryMethod-add-simulation-build
 future/patterns-FactoryMethod-add-next-factory-build
 
 
