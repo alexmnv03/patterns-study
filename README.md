@@ -17,6 +17,11 @@ future/patterns-FactoryMethod-code-ref
 future/patterns-FactoryMethod-add-simulation-build-add
 future/patterns-FactoryMethod-add-next-factory-build
 
+practice
+future/patterns-FactoryMethod-practice-list
+
+
+Новая улучшенная версия
 future/patterns-FactoryMethod-new-build
 
 Не хорошо что House находится внутри классов строителей, давай перепишем код, чтобы убрать эту зависимость 
