@@ -14,9 +14,10 @@ future/patterns-FactoryMethod-code-example
 
 future/patterns-FactoryMethod-code-ref
 
-future/patterns-FactoryMethod-add-simulation-build
+future/patterns-FactoryMethod-add-simulation-build-add
 future/patterns-FactoryMethod-add-next-factory-build
 
+future/patterns-FactoryMethod-new-build
 
 Не хорошо что House находится внутри классов строителей, давай перепишем код, чтобы убрать эту зависимость 
 public int workOn(House house, ConstructionSite site) {
