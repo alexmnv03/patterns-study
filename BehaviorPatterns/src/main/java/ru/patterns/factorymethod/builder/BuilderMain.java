@@ -10,7 +10,9 @@ public class BuilderMain {
 
 //  BuilderRobot
 
-//  builderGenerator
+//  builderGenerator можно попробовать вариант автоматического создания стройплощадкb
+  //с проверкой ее эффективности и дальнейшшей ручной корректировкой
+
 //  private static BuilderAbstractFactory builderGenerator() {
 //    int typeBuilder =  generateRandomNumber(1)
 //
