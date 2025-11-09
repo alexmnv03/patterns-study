@@ -18,11 +18,20 @@ future/patterns-FactoryMethod-add-simulation-build-add
 future/patterns-FactoryMethod-add-next-factory-build
 
 practice
-future/patterns-FactoryMethod-practice-list
+первая реализцация notificationfactory.native начнем с реализации
+future/patterns-FactoryMethod-practice-notificationfactory-implement
+future/patterns-FactoryMethod-practice-notificationfactory-product
+future/patterns-FactoryMethod-practice-notificationfactory-factory
+
+следующая реализцация notificationfactory.dynamic
+future/patterns-FactoryMethod-practice-notificationfactory-provider
 
 
 Новая улучшенная версия
 future/patterns-FactoryMethod-new-builder-builders
+
+
+
 
 Не хорошо что House находится внутри классов строителей, давай перепишем код, чтобы убрать эту зависимость 
 public int workOn(House house, ConstructionSite site) {
