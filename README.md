@@ -22,7 +22,7 @@ future/patterns-FactoryMethod-practice-list
 
 
 Новая улучшенная версия
-future/patterns-FactoryMethod-new-build
+future/patterns-FactoryMethod-new-builder-builders
 
 Не хорошо что House находится внутри классов строителей, давай перепишем код, чтобы убрать эту зависимость 
 public int workOn(House house, ConstructionSite site) {
