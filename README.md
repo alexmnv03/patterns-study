@@ -22,6 +22,9 @@ practice
 future/patterns-FactoryMethod-practice-notificationfactory-implement
 future/patterns-FactoryMethod-practice-notificationfactory-product
 future/patterns-FactoryMethod-practice-notificationfactory-factory
+задание для экзамена
+future/patterns-FactoryMethod-practice-notification-simple-exam
+
 
 следующая реализцация notificationfactory.dynamic
 future/patterns-FactoryMethod-practice-notificationfactory-provider
