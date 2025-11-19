@@ -17,7 +17,6 @@ future/patterns-FactoryMethod-add-next-factory-build
 practice
 первая реализцация notificationfactory.native начнем с реализации
 
-future/patterns-FactoryMethod-practice-notificationfactory-factory
 задание для экзамена
 future/patterns-FactoryMethod-practice-notification-simple-exam
 
