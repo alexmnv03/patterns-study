@@ -8,31 +8,31 @@ future/pattern-composite-next
 
 future/move-picture
 future/patterns-list-FactoryMethod
-future/patterns-FactoryMethod-code-next
 future/patterns-FactoryMethod-code-example
 
-
-future/patterns-FactoryMethod-code-ref
 
 future/patterns-FactoryMethod-add-simulation-build-add
 future/patterns-FactoryMethod-add-next-factory-build
 
 practice
 первая реализцация notificationfactory.native начнем с реализации
-future/patterns-FactoryMethod-practice-notificationfactory-implement
-future/patterns-FactoryMethod-practice-notificationfactory-product
+
 future/patterns-FactoryMethod-practice-notificationfactory-factory
 задание для экзамена
 future/patterns-FactoryMethod-practice-notification-simple-exam
 
 
-следующая реализцация notificationfactory.dynamic
-future/patterns-FactoryMethod-practice-notificationfactory-provider
+следующая реализцация notificationfactory.dynamic-provider
+следующая реализцация notificationfactory.dynamic-factory
+следующая реализцация notificationfactory.dynamic-product
 
 
 Новая улучшенная версия
 future/patterns-FactoryMethod-new-builder-builders
 
+-provider
+-factory
+-product
 
 
 
