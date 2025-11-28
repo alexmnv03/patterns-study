@@ -18,13 +18,19 @@ practice
 первая реализцация notificationfactory.native начнем с реализации
 
 задание для экзамена
-future/patterns-FactoryMethod-practice-notification-simple-exam
+future/patterns-FactoryMethod-practice-notice -exam
+future/patterns-FactoryMethod-practice-notice-dynamic-exam
+
+
+future/patterns-FactoryMethod-practice-notice-dynamic-factory
+future/patterns-FactoryMethod-practice-notice-dynamic-product
 
 
 следующая реализцация notificationfactory.dynamic-provider
 следующая реализцация notificationfactory.dynamic-factory
 следующая реализцация notificationfactory.dynamic-product
 
+future/patterns-FactoryMethod-practice-notice-dynamic-spring-add
 
 Новая улучшенная версия
 future/patterns-FactoryMethod-new-builder-builders
