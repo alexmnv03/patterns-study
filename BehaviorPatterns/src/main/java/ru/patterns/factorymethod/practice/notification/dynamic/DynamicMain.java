@@ -1,5 +1,10 @@
 package ru.patterns.factorymethod.practice.notification.dynamic;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+import ru.patterns.factorymethod.practice.notification.simple.factory.NotificationFactory;
+
 public class DynamicMain {
 
   public static void main(String[] args) {
@@ -12,7 +17,7 @@ public class DynamicMain {
     }
 
     String type = config.getProperty("notification.type", "SMS");
-    NotificationFactory factory = NotificationFactoryProvider.getFactory(type);
+    NotificationFactory factory = DynamicFactoryProvider.getFactory(type);
 
     factory.sendNotification("Ваш заказ №123 успешно доставлен!");
   }
