@@ -22,7 +22,7 @@ future/patterns-FactoryMethod-practice-notice -exam
 future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
-future/patterns-FactoryMethod-practice-notice-dynamic-factory
+future/patterns-FactoryMethod-practice-notice-dynamic-proper
 future/patterns-FactoryMethod-practice-notice-dynamic-product
 
 
