@@ -22,7 +22,7 @@ future/patterns-FactoryMethod-practice-notice -exam
 future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
-future/patterns-FactoryMethod-practice-notice-spring-readme
+
 future/patterns-FactoryMethod-practice-notice-spring-provider
 future/patterns-FactoryMethod-practice-notice-spring-factory
 future/patterns-FactoryMethod-practice-notice-spring-product
@@ -136,8 +136,8 @@ Compound Component (Паттерн "составных компонентов") 
 Form State Management Pattern (При создании многостраничных форм со сложной логикой на React)
 
 
-/*
 
+```
 <?xml version="1.0" encoding="UTF-8" ?> 
 - <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion> 
@@ -198,16 +198,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 
 
 
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
-<parent>
-<groupId>com.alex.study.hibernatespring</groupId>
-<artifactId>hibernate-spring</artifactId>
-<version>0.0.1-SNAPSHOT</version>
-</parent>
-
 	<!-- <groupId>com.alex.study.hibernatespring</groupId> -->
 	<artifactId>parent-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -261,4 +251,4 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	</build>
 
 </project>
-*/
+```

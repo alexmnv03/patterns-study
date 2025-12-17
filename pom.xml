@@ -3,17 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>com.alex.patterns</groupId>
   <artifactId>patterns-study</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <java.version>17</java.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <java.version>21</java.version>
 
-    <common.version>0.0.1-SNAPSHOT</common.version>
     <models.version>0.0.1-SNAPSHOT</models.version>
     <environment.version>0.0.1-SNAPSHOT</environment.version>
 
@@ -66,7 +66,6 @@
 
     <!-- Wildfly server deployment plugin for the application examples -->
     <wildfly.maven-plugin.version>1.0.2.Final</wildfly.maven-plugin.version>
-
   </properties>
 
   <dependencies>
@@ -105,7 +104,8 @@
   </dependencies>
 
   <modules>
-    <!-- <module>common</module> -->
+    <module>spring-parent</module>
+     <module>BehaviorPatterns</module>
     <!-- <module>environment</module> -->
     <!-- <module>models</module> -->
 <!--    <module>first</module>-->
