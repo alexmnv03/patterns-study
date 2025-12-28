@@ -24,7 +24,7 @@ future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
 future/patterns-FactoryMethod-practice-notice-spring-provider
-future/patterns-FactoryMethod-practice-notice-spring-factory
+future/patterns-FactoryMethod-practice-notice-spring-service
 future/patterns-FactoryMethod-practice-notice-spring-product
 
 
