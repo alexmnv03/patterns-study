@@ -23,7 +23,8 @@ future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
 
-future/patterns-FactoryMethod-practice-notice-spring-app
+Добавить EmailNotification и др как бины
+future/patterns-FactoryMethod-practice-notice-spring-notice
 future/patterns-FactoryMethod-practice-notice-spring-resources
 
 
