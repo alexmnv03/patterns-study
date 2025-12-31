@@ -16,6 +16,6 @@ public class NotificationFactoryProvider {
   }
 
   public NotificationFactory getFactory(String type) {
-    return factories.getOrDefault(type.toUpperCase(), factories.get("smsF"));
+    return factories.getOrDefault(type.toLowerCase(), factories.get("sms"));
   }
 }
