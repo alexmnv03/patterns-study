@@ -23,8 +23,8 @@ future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
 
-future/patterns-FactoryMethod-practice-notice-spring-service
-future/patterns-FactoryMethod-practice-notice-spring-product
+future/patterns-FactoryMethod-practice-notice-spring-app
+future/patterns-FactoryMethod-practice-notice-spring-resources
 
 
 следующая реализцация notificationfactory.dynamic-provider
