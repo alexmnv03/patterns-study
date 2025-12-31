@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.patterns.factorymethod.practice.notification.simple.factory.NotificationFactory;
 import ru.patterns.factorymethod.practice.notification.simple.notice.Notification;
-import ru.patterns.factorymethod.practice.notification.simple.notice.PushNotification;
+import ru.patterns.factorymethod.practice.notification.spring.begin.notice.PushNotification;
 
 @Component("pushF")
 public class PushFactory extends NotificationFactory {
