@@ -6,7 +6,7 @@ import ru.patterns.factorymethod.practice.notification.simple.factory.Notificati
 import ru.patterns.factorymethod.practice.notification.simple.notice.Notification;
 import ru.patterns.factorymethod.practice.notification.spring.begin.notice.EmailNotification;
 
-@Component("emailF")
+@Component("email")
 public class EmailFactory extends NotificationFactory {
 
   private final EmailNotification emailNotification;

@@ -6,7 +6,7 @@ import ru.patterns.factorymethod.practice.notification.simple.factory.Notificati
 import ru.patterns.factorymethod.practice.notification.simple.notice.Notification;
 import ru.patterns.factorymethod.practice.notification.spring.begin.notice.SmsNotification;
 
-@Component("smsF")
+@Component("sms")
 public class SmsFactory extends NotificationFactory {
 
   private final SmsNotification smsNotification;

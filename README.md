@@ -24,8 +24,7 @@ future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
 Добавить EmailNotification и др как бины
-future/patterns-FactoryMethod-practice-notice-spring-notice
-future/patterns-FactoryMethod-practice-notice-spring-resources
+future/patterns-FactoryMethod-practice-notice-spring-restbg
 
 
 следующая реализцация notificationfactory.dynamic-provider

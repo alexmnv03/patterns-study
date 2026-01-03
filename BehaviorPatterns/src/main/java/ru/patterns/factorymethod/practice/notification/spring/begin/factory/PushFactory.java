@@ -6,7 +6,7 @@ import ru.patterns.factorymethod.practice.notification.simple.factory.Notificati
 import ru.patterns.factorymethod.practice.notification.simple.notice.Notification;
 import ru.patterns.factorymethod.practice.notification.spring.begin.notice.PushNotification;
 
-@Component("pushF")
+@Component("push")
 public class PushFactory extends NotificationFactory {
 
   private final PushNotification pushNotification;
