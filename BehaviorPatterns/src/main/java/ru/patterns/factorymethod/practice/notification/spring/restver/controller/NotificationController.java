@@ -9,7 +9,7 @@ import ru.patterns.factorymethod.practice.notification.simple.notice.Notificatio
 import ru.patterns.factorymethod.practice.notification.spring.restver.provider.NotificationFactoryProvider;
 
 @RestController
-@RequestMapping("/notice-send")
+@RequestMapping("/send")
 public class NotificationController {
 
   private final NotificationFactoryProvider factoryProvider;
@@ -18,33 +18,15 @@ public class NotificationController {
     this.factoryProvider = factoryProvider;
   }
 
-//  @GetMapping
-  public String send(
-//      @RequestParam(defaultValue = "SMS") String type,
-//      @RequestParam(defaultValue = "Hello!") String message
-)
-{
-
-  String type = "SMS";
-  String message = "SMS";
-    System.out.println("Start send");
-    NotificationFactory factory = factoryProvider.getFactory(type);
-    Notification notification = factory.createNotification();
-    notification.notifyUser(message);
-
-    return "Notification sent via " + type.toUpperCase();
-  }
-
   @GetMapping
-  public String sends() {
-    String type = "SMS";
-    String message = "SMS";
-    System.out.println("Start send");
+  public String send(
+      @RequestParam(defaultValue = "SMS") String type,
+      @RequestParam(defaultValue = "Hello, defaultValue!") String message
+  ) {
     NotificationFactory factory = factoryProvider.getFactory(type);
     Notification notification = factory.createNotification();
     notification.notifyUser(message);
 
     return "Notification sent via " + type.toUpperCase();
   }
-
 }

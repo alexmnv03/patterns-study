@@ -24,7 +24,7 @@ future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
 Добавить EmailNotification и др как бины
-future/patterns-FactoryMethod-practice-notice-spring-add-bean
+future/patterns-FactoryMethod-practice-notice-spring-add-test
 
 
 следующая реализцация notificationfactory.dynamic-provider
