@@ -8,6 +8,7 @@
     <groupId>com.alex.patterns</groupId>
     <artifactId>spring-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>BehaviorPatterns</artifactId>
