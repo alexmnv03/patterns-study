@@ -24,6 +24,7 @@ future/patterns-FactoryMethod-practice-notice-dynamic-exam
 
 
 Добавить EmailNotification и др как бины
+future/patterns-FactoryMethod-practice-notice-spring-add-prov-for-rest
 future/patterns-FactoryMethod-practice-notice-spring-add-web
 
 
